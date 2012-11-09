@@ -74,4 +74,11 @@
             android:summary="@string/pref_volume_wake_summary"
             android:defaultValue="false" />
 
+        <PreferenceScreen	
+            android:id="@+id/slim_notification_shortcuts"
+            android:fragment="com.android.settings.mirage.notificationshortcuts.NotificationShortcuts"
+            android:key="slim_shortcuts_settings"
+            android:title="@string/notification_shortcuts_settings_title"
+            android:summary="@string/notification_shortcuts_settings_summary" />
+
 </PreferenceScreen>

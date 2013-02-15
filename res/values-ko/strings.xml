@@ -1833,7 +1833,11 @@
 
 
     <!-- **XYLON/FNV ACTIVITIES MODIFICATIONS STARTS** -->
-    <!-- **XYLON KOREAN translated MODOFICATIONS STARTS** -->
+    <string name="mod_version">프랑코 버전</string>
+    <string name="mod_version_default">알수없음</string>
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">빌드 날짜</string>
+    <string name="build_date_default">2013-01-01-0000</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">색상 선택기</string>

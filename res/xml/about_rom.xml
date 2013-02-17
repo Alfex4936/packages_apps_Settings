@@ -8,14 +8,14 @@
 		android:title="@string/xylon">
 
 		<Preference
-			android:key="xylon_website"
-			android:title="@string/xylon_website_title"
-			android:summary="@string/xylon_website_summary" />
+			android:key="grnf_website"
+			android:title="@string/grnf_website_title"
+			android:summary="@string/grnf_website_summary" />
 
 		<Preference
-			android:key="xylon_source"
-			android:title="@string/xylon_source_title"
-			android:summary="@string/xylon_source_summary" />
+			android:key="franco_source"
+			android:title="@string/franco_source_title"
+			android:summary="@string/franco_source_summary" />
 
 	</PreferenceCategory>
 

@@ -4465,10 +4465,10 @@
     <string name="team">Da Team</string>
     <string name="contributors">Contributors</string>
     <string name="xylon">Xylon AOSP</string>
-    <string name="franco_website_title">GRNF\'s Website</string>
-    <string name="franco_website_summary">Google Reference Nexus Forum.</string>
+    <string name="grnf_website_title">GRNF\'s Website</string>
+    <string name="grnf_website_summary">Google Reference Nexus Forum.</string>
     <string name="franco_source_title">Franco\'s Source</string>
-    <string name="franco_source_summary">I'm also open source, :D</string>
+    <string name="franco_source_summary">I\'m also open source, :D</string>
     <string name="donate_daxxmax">http://forum.xda-developers.com/donatetome.php?u=1216319</string>
     <string name="donate_arzbhatia">http://forum.xda-developers.com/donatetome.php?u=4125911</string>
     <string name="donate_d4">http://forum.xda-developers.com/donatetome.php?u=3484876</string>

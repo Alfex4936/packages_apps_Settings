@@ -1850,10 +1850,10 @@
     <string name="team">Da 팀</string>
     <string name="contributors">도움 주신 분들</string>
     <string name="xylon">Xylon AOSP</string>
-    <string name="xylon_website_title">XY 홈페이지</string>
-    <string name="xylon_website_summary">모든 최신 소식과 최신 베타를 보세요.</string>
-    <string name="xylon_source_title">XY 소스</string>
-    <string name="xylon_source_summary">완전한 오픈 소스 입니다. github.com/XYAOSP 에서 작업내용을 볼 수 있습니다</string>
+    <string name="franco_website_title">구레포 홈페이지</string>
+    <string name="franco_website_summary">구글 레퍼런스 넥서스 포럼.</string>
+    <string name="franco_source_title">프랑코 소스</string>
+    <string name="franco_source_summary">완전한 오픈 소스 입니다. github.com/franco-c 에서 작업내용을 볼 수 있습니다.</string>
 
     <!-- Customisation -->
     <string name="other_cat">다른 설정</string>

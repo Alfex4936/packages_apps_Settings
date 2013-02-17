@@ -26,8 +26,8 @@ public class About extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.about_rom);
-        mSiteUrl = findPreference("xylon_website");
-        mSourceUrl = findPreference("xylon_source");
+        mSiteUrl = findPreference("grnf_website");
+        mSourceUrl = findPreference("franco_source");
 
         PreferenceGroup devsGroup = (PreferenceGroup) findPreference("team");
         ArrayList<Preference> devs = new ArrayList<Preference>();
@@ -48,9 +48,9 @@ public class About extends SettingsPreferenceFragment {
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mSiteUrl) {
-            launchUrl("http://xylon.androidvenue.com/");
+            launchUrl("http://cafe.naver.com/grnf");
         } else if (preference == mSourceUrl) {
-            launchUrl("http://github.com/XYAOSP");
+            launchUrl("http://github.com/franco-c");
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }

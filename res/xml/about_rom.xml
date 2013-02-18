@@ -44,16 +44,6 @@
 			android:title="David Vidal"
 			xy:nameDev="David Vidal"
 			xy:twitterHandle="dorilife" />
-
-		<com.android.settings.widgets.DeveloperPreference
-			android:title="AlexForTomorrow"
-			xy:nameDev="AlexForTomorrow"
-			xy:twitterHandle="AlexForTomorrow" />
-
-		<com.android.settings.widgets.DeveloperPreference
-			android:title="DOOMSlayer"
-			xy:nameDev="DOOMSlayer"
-			xy:twitterHandle="d00mslayer" />
 			
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="flipz"
@@ -95,21 +85,10 @@
 	                xy:twitterHandle="aokp_rom"
                         xy:donateLink="@string/donate_aokp" />
 
-                <com.android.settings.widgets.DeveloperPreference
-            		android:title="TeamBAKED"
-	                xy:nameDev="TeamBAKED"
-	                xy:twitterHandle="team_baked_rom" />
-
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="ParanoidAndroid"
 			xy:nameDev="ParanoidAndroid"
 			xy:twitterHandle="paranoid_team" />
-
-		<com.android.settings.widgets.DeveloperPreference
-			android:title="Jesús David"
-			xy:nameDev="Jesús David"
-			xy:twitterHandle="D4rKn3sSyS"
-			xy:donateLink="@string/donate_d4" />
 
 	</PreferenceCategory>
 

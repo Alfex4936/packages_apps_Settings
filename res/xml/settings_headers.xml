@@ -17,22 +17,6 @@
 <preference-headers
         xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Lock screen -->
-    <header
-        android:id="@+id/lock_screen_settings"
-        android:fragment="com.android.settings.fnv.Lockscreen"
-        android:title="@string/lockscreen_stub"
-        android:icon="@drawable/ic_settings_lockscreen" />
-
-    <header android:id="@+id/xy_settings"
-            android:title="@string/xylon_extras"
-            android:icon="@drawable/ic_settings_xy" >
-        <intent
-                android:action="android.intent.action.MAIN"
-                android:targetClass="com.xylon.settings.XYSettingsActivity"
-                android:targetPackage="com.xylon.settings" />
-    </header>
-
     <!-- WIRELESS and NETWORKS -->
     <header
         android:id="@+id/wireless_section"
@@ -73,6 +57,27 @@
         android:breadCrumbTitle="@string/wireless_networks_settings_title"
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
+
+    <!-- ROM -->
+    <header
+        android:id="@+id/rom_section"
+        android:title="@string/header_category_xylon" />
+
+    <header android:id="@+id/xy_settings"
+            android:title="@string/xylon_extras"
+            android:icon="@drawable/ic_settings_xy" >
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.xylon.settings.XYSettingsActivity"
+                android:targetPackage="com.xylon.settings" />
+    </header>
+
+    <!-- Lock screen -->
+    <header
+        android:id="@+id/lock_screen_settings"
+        android:fragment="com.android.settings.fnv.Lockscreen"
+        android:title="@string/lockscreen_stub"
+        android:icon="@drawable/ic_settings_lockscreen" />
 
     <!-- DEVICE -->
     <header
@@ -211,7 +216,7 @@
         android:title="@string/development_settings_title" />
 
     <!-- Performance -->
-    <header android:id="@+id/performance"
+    <header android:id="@+id/performance_settings"
             android:title="@string/performance_settings_title"
             android:icon="@drawable/ic_settings_performance" >
         <intent

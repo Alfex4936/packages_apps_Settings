@@ -54,7 +54,7 @@
     <!-- Settings main menu category heading. Device (Sound, display, battery, applications...). [CHAR LIMIT=40] -->
     <string name="header_category_device">DEVICE</string>
     <!-- FNV Settings main menu category heading. Customization (SB, Navigation Bar, battery, clock...). [CHAR LIMIT=40] -->
-    <string name="header_category_xylon">XYLON</string>
+    <string name="header_category_franco">FRANCO</string>
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
     <string name="header_category_personal">PERSONAL</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
@@ -4762,5 +4762,11 @@
     <!-- **XYLON/FNV ACTIVITIES MODIFICATIONS ENDS** -->
 
     <string name="performance_settings_title">Performance</string>
+
+    <!-- Xposed Density -->
+    <string name="xposed_dpi_title">Per-App DPI Settings</string>
+    <string name="xposed_dpi_summary">Customize the DPI values of specific applications</string>
+    <string name="xposed_install_title">DPI Installer</string>
+    <string name="xposed_install_summary">*You must install this before using Per-App DPI Settings. Enable the settings in modules*</string>
 
 </resources>

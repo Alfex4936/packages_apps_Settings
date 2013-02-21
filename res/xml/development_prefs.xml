@@ -18,13 +18,21 @@
         android:title="@string/development_settings_title">
 
     <PreferenceScreen
-            android:key="development_tools"
-            android:title="@string/development_tools_title"
-            android:persistent="false" >
-        <intent
-                android:action="android.settings.development.LAUNCH_TOOLS"
-                android:targetPackage="com.android.development"
-                android:targetClass="com.android.development.Development" />
+android:key="xposed_dpi"
+            android:title="@string/xposed_dpi_title"
+android:summary="@string/xposed_dpi_summary" >
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="de.robv.android.xposed.mods.appsettings"
+android:targetClass="de.robv.android.xposed.mods.appsettings.XposedModActivity" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+android:key="xposed_installer"
+            android:title="@string/xposed_install_title"
+android:summary="@string/xposed_install_summary" >
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="de.robv.android.xposed.installer"
+android:targetClass="de.robv.android.xposed.installer.XposedInstallerActivity" />
     </PreferenceScreen>
 
     <com.android.settings.BugreportPreference

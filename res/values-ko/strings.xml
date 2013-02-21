@@ -2192,4 +2192,10 @@
 
     <!-- **XYLON/FNV ACTIVITIES MODIFICATIONS ENDS** -->
 
+    <!-- Xposed Density -->
+    <string name="xposed_dpi_title">Per-App DPI 설정</string>
+    <string name="xposed_dpi_summary">특정 어플의 DPI 값을 수정 합니다.</string>
+    <string name="xposed_install_title">DPI 설치기</string>
+    <string name="xposed_install_summary">*Per-App DPI기능을 사용하려면 꼭 설치하세요. 설정에서 모듈을 활성화 하세요*</string>
+
 </resources>

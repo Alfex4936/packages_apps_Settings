@@ -61,7 +61,7 @@
     <!-- ROM -->
     <header
         android:id="@+id/rom_section"
-        android:title="@string/header_category_xylon" />
+        android:title="@string/header_category_franco" />
 
     <header android:id="@+id/xy_settings"
             android:title="@string/xylon_extras"

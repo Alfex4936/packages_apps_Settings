@@ -18,21 +18,21 @@
         android:title="@string/development_settings_title">
 
     <PreferenceScreen
-            android:key="xposed_dpi"
+android:key="xposed_dpi"
             android:title="@string/xposed_dpi_title"
-            android:summary="@string/xposed_dpi_summary" >
+android:summary="@string/xposed_dpi_summary" >
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="de.robv.android.xposed.mods.appsettings"
-            android:targetClass="de.robv.android.xposed.mods.appsettings.XposedModActivity" />
+android:targetClass="de.robv.android.xposed.mods.appsettings.XposedModActivity" />
     </PreferenceScreen>
 
     <PreferenceScreen
-            android:key="xposed_installer"
+android:key="xposed_installer"
             android:title="@string/xposed_install_title"
-            android:summary="@string/xposed_install_summary" >
+android:summary="@string/xposed_install_summary" >
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="de.robv.android.xposed.installer"
-            android:targetClass="de.robv.android.xposed.installer.XposedInstallerActivity" />
+android:targetClass="de.robv.android.xposed.installer.XposedInstallerActivity" />
     </PreferenceScreen>
 
     <com.android.settings.BugreportPreference

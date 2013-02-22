@@ -25,7 +25,6 @@ import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.util.Log;
 
-import com.android.settings.ProgressCategory;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.Collection;

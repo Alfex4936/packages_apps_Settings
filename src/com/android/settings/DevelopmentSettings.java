@@ -428,7 +428,7 @@ public class DevelopmentSettings extends PreferenceFragment
         final ContentResolver cr = context.getContentResolver();
         mHaveDebugSettings = false;
         updateCheckBox(mEnableAdb, Settings.Global.getInt(cr,
-                Settings.Global.ADB_ENABLED, 1) != 1);
+                Settings.Global.ADB_ENABLED, 0) != 0);
         mAdbNotify.setChecked(Settings.Secure.getInt(cr,
                 Settings.Secure.ADB_NOTIFY, 1) != 0);
         updateCheckBox(mBugreportInPower, Settings.Secure.getInt(cr,

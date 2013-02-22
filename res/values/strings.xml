@@ -53,8 +53,9 @@
     <string name="header_category_wireless_networks">WIRELESS &amp; NETWORKS</string>
     <!-- Settings main menu category heading. Device (Sound, display, battery, applications...). [CHAR LIMIT=40] -->
     <string name="header_category_device">DEVICE</string>
-    <!-- FNV Settings main menu category heading. Customization (SB, Navigation Bar, battery, clock...). [CHAR LIMIT=40] -->
+    <!-- MIRAGE Settings main menu category heading. Customization (SB, Navigation Bar, battery, clock...). [CHAR LIMIT=40] -->
     <string name="header_category_franco">MIRAGE</string>
+
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
     <string name="header_category_personal">PERSONAL</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
@@ -4461,8 +4462,8 @@
     <string name="ics_color">ICS</string>
 
     <!-- About -->
-    <string name="title_about">About us</string>
-    <string name="team">Da Team</string>
+    <string name="title_about">About Xylon</string>
+    <string name="team">The Funkies</string>
     <string name="contributors">Contributors</string>
     <string name="xylon">Xylon AOSP</string>
     <string name="grnf_website_title">GRNF\'s Website</string>
@@ -4479,7 +4480,7 @@
 
     <!-- Customisation -->
     <string name="other_cat">Other Settings</string>
-    <string name="xylon_extras">ROM Settings</string>
+    <string name="xylon_extras">XY Tools</string>
     <string name="lockscreen_stub">Lock Screen</string>
     <string name="misc">Misc</string>
 

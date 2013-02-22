@@ -17,6 +17,11 @@
 			android:title="@string/franco_source_title"
 			android:summary="@string/franco_source_summary" />
 
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Xylon AOSP"
+			xy:nameDev="Xylon AOSP"
+			xy:twitterHandle="XYAOSP" />
+
 	</PreferenceCategory>
 
 	<PreferenceCategory
@@ -26,7 +31,7 @@
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="Daniel MM"
 			xy:nameDev="Daniel MM"
-			xy:twitterHandle="daxxmax"
+			xy:twitterHandle="daxinonito"
 			xy:donateLink="@string/donate_daxxmax" />
 
 		<com.android.settings.widgets.DeveloperPreference
@@ -61,6 +66,7 @@
                         xy:nameDev="fuss132"
                         xy:twitterHandle="fuss132Dev" />
 
+
 	</PreferenceCategory>
 
 	<PreferenceCategory
@@ -89,6 +95,16 @@
 			android:title="ParanoidAndroid"
 			xy:nameDev="ParanoidAndroid"
 			xy:twitterHandle="paranoid_team" />
+
+                <com.android.settings.widgets.DeveloperPreference
+                        android:title="Carbon ROM"
+                        xy:nameDev="Carbon ROM"
+                        xy:twitterHandle="carbonrom" />
+
+                <com.android.settings.widgets.DeveloperPreference
+                        android:title="SlimRoms"
+                        xy:nameDev="SlimRoms"
+                        xy:twitterHandle="slimroms" />
 
 	</PreferenceCategory>
 

@@ -232,11 +232,4 @@
         android:icon="@drawable/ic_settings_about"
         android:title="@string/about_settings" />
 
-    <!-- About Rom -->
-    <header
-        android:id="@+id/about_xy"
-        android:fragment="com.android.settings.fnv.About"
-        android:icon="@drawable/ic_settings_multiuser"
-        android:title="@string/title_about" />
-
 </preference-headers>

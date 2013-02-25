@@ -1431,21 +1431,20 @@
         <activity android:name=".CryptKeeper$FadeToBlack"
             android:immersive="true"
             android:launchMode="singleTop"
-            android:theme="@style/CryptKeeperBlankTheme"
-        />
+            android:theme="@style/CryptKeeperBlankTheme" />
 
         <activity android:name=".CryptKeeperConfirm$Blank"
             android:immersive="true"
             android:launchMode="singleTop"
-            android:theme="@style/CryptKeeperBlankTheme"
-        />
+            android:theme="@style/CryptKeeperBlankTheme" />
 
         <!-- For FNV Stub -->
-        <activity android:name=".fnv.About" />
-
+        <!-- <activity android:name=".mirage.About" /> -->
         <activity android:name=".fnv.Lockscreen" />
-
         <activity android:name=".fnv.Targets" />
+
+        <!-- Mirage stub -->
+        <activity android:name=".mirage.About" />
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
@@ -1453,7 +1452,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.app.action.START_ENCRYPTION" />
-                <category android:name="android.intent.category.DEFAULT" /> />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.CryptKeeperSettings" />

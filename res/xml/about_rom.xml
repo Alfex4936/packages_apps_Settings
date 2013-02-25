@@ -18,9 +18,9 @@
 			android:summary="@string/franco_source_summary" />
 
 		<com.android.settings.widgets.DeveloperPreference
-			android:title="Xylon AOSP"
-			xy:nameDev="Xylon AOSP"
-			xy:twitterHandle="XYAOSP" />
+			android:title="Mirage OW"
+			xy:nameDev="프랑코c"
+			xy:twitterHandle="franco-c" />
 
 	</PreferenceCategory>
 

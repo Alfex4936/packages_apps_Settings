@@ -235,7 +235,7 @@
     <!-- About Rom -->
     <header
         android:id="@+id/about_xy"
-        android:fragment="com.android.settings.fnv.About"
+        android:fragment="com.android.settings.mirage.About"
         android:icon="@drawable/ic_settings_multiuser"
         android:title="@string/title_about" />
 

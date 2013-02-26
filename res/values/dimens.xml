@@ -68,6 +68,19 @@
     <dimen name="keyguard_appwidget_picker_margin_right">6dip</dimen>
     <integer name="keyguard_appwidget_picker_cols">1</integer>
 
+    <!-- Nav bar heights -->
+    <dimen name="navigation_bar_48">48.0dip</dimen>
+    <dimen name="navigation_bar_44">44.0dip</dimen>
+    <dimen name="navigation_bar_42">42.0dip</dimen>
+    <dimen name="navigation_bar_40">40.0dip</dimen>
+    <dimen name="navigation_bar_36">36.0dip</dimen>
+    <dimen name="navigation_bar_30">30.0dip</dimen>
+    <dimen name="navigation_bar_24">24.0dip</dimen>
+    <dimen name="navigation_bar_0">0.0dip</dimen>
+
+    <!-- Light settings dialog -->
+    <dimen name="dialog_light_settings_width">400dip</dimen>
+
     <!-- Notification Shortcuts -->
     <dimen name="notification_shortcut_picker_left_padding">36dip</dimen>
 

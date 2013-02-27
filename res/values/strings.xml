@@ -4134,7 +4134,9 @@
     <!--  Body of dialog shown when user enables global auto sync, for tablet [CHAR LIMIT=none] -->
     <string name="data_usage_auto_sync_on_dialog" product="tablet">Any changes you make to your accounts on the web will be automatically copied to your tablet.\n\nSome accounts may also automatically copy any changes you make on the tablet to the web. A Google Account works this way.\n\nTo choose which kinds of information to sync within each account, go to Settings &gt; Accounts.</string>
     <!--  Body of dialog shown when user enables global auto sync [CHAR LIMIT=none] -->
-    <string name="data_usage_auto_sync_on_dialog" product="default">Any changes you make to your accounts on the web will be automatically copied to your phone.\n\nSome accounts may also automatically copy any changes you make on the phone to the web. A Google Account works this way.\n\nTo choose which kinds of information to sync within each account, go to Settings &gt; Accounts.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default">Any changes you make to your accounts on the web will be automatically copied to your phone.\n\nSome accounts may also automatically copy any changes you make on the phone to the web. A Google Account works
+
+     this way.\n\nTo choose which kinds of information to sync within each account, go to Settings &gt; Accounts.</string>
     <!--  Title of dialog shown when user disables global auto sync [CHAR LIMIT=32] -->
     <string name="data_usage_auto_sync_off_dialog_title">Turn auto-sync data off?</string>
     <!--  Body of dialog shown when user disables global auto sync [CHAR LIMIT=none] -->
@@ -4738,8 +4740,13 @@
     <!-- Android debugging over WiFi -->
     <string name="adb_over_network">ADB over network</string>
     <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
+
     <!-- Warning for Adb over Network -->
     <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+
+    <!-- Notification shade dimming -->
+    <string name="notification_shade_dim_title">Dim notification shade</string>
+    <string name="notification_shade_dim_summary">Toggle the dimming effect when pulling down the notification shade</string>
 
     <!-- Wireless display -->
     <string name="pref_wifi_disable_hdcp_title">Skip HDCP negotiation</string>

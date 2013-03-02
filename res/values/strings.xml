@@ -4539,6 +4539,10 @@
     <string name="slide_lock_delay_10m">10 minutes</string>
     <string name="slide_lock_delay_30m">30 minutes</string>
 
+    <!-- Swap volume buttons on rotation -->
+    <string name="swap_volume_keys_title">Swap volume buttons</string>
+    <string name="swap_volume_keys_summary">Swap volume buttons when the screen is rotated by 90 or 180 degrees</string>
+
     <!-- Lock screen shortcuts -->
     <string name="picker_activities">Activities</string>
     <string name="select_custom_app_title">Select custom application</string>

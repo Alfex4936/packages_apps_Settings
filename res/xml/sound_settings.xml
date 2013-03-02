@@ -158,4 +158,10 @@
             android:title="@string/safe_headset_volume_title"
             android:defaultValue="true" />
 
+    <CheckBoxPreference
+            android:key="swap_volume_buttons"
+            android:title="@string/swap_volume_keys_title"
+            android:summary="@string/swap_volume_keys_summary"
+            android:dependency="accelerometer" />
+
 </PreferenceScreen>

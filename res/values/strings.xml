@@ -4813,5 +4813,6 @@
     <!-- **XYLON/FNV ACTIVITIES MODIFICATIONS ENDS** -->
 
     <string name="performance_settings_title">Performance</string>
+    <string name="power_widget_title">Powerwidget</string>
 
 </resources>

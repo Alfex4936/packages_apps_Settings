@@ -74,4 +74,10 @@
             android:summary="@string/pref_volume_wake_summary"
             android:defaultValue="false" />
 
+        <PreferenceScreen
+            android:id="@+id/power_widget_settings"
+            android:title="@string/power_widget_title"
+            android:icon="@drawable/ic_carbon_powerwidget"
+            android:fragment="com.android.settings.carbon.PowerWidget" />
+
 </PreferenceScreen>

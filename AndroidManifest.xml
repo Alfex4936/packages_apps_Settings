@@ -1439,6 +1439,9 @@
             android:launchMode="singleTop"
             android:theme="@style/CryptKeeperBlankTheme" />
 
+        <!-- Carbon Activities Start -->
+        <activity android:name=".carbon.PowerWidget" />
+
         <!-- For FNV Stub -->
         <activity android:name=".fnv.Lockscreen" />
         <activity android:name=".fnv.Targets" />

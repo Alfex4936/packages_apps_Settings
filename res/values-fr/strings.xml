@@ -30,8 +30,11 @@
     <string name="show_dev_already" msgid="2151632240145446227">"Inutile, vous êtes déjà un développeur."</string>
     <string name="header_category_wireless_networks" msgid="4944823405420438623">"SANS FIL ET RÉSEAUX"</string>
     <string name="header_category_device" msgid="5781174212691167553">"APPAREIL"</string>
+    <string name="header_category_customization">PERSONNALISATION</string>
     <string name="header_category_personal" msgid="6225932173498802187">"PERSONNEL"</string>
     <string name="header_category_system" msgid="2073558547468647128">"SYSTÈME"</string>
+    <string name="themes_settings_title">Thèmes</string>
+    <string name="advanced_settings_title">Avancés</string>
     <string name="turn_on_radio" msgid="8706561489788373676">"Allumer le signal radio"</string>
     <string name="turn_off_radio" msgid="1820294552893884115">"Éteindre le signal radio"</string>
     <string name="sms_over_ims_on" msgid="5085290395865632925">"Activer SMS over IMS"</string>
@@ -1835,4 +1838,15 @@
     <string name="user_picture_title" msgid="7297782792000291692">"ID de photo"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Diffusions cellulaires"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Sélectionnez les types d\'alertes d\'urgence à afficher."</string>
+     
+    <!-- Customisation -->
+    <string name="lockscreen_stub">Écran de verrouillage</string>
+    <string name="title_about">À propos de Xylon</string>
+    <string name="other_cat">Autres paramètres</string>
+    <string name="misc">Extras</string>
+
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Vibreur</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibrer lors du dévérouillage</string>
+
 </resources>

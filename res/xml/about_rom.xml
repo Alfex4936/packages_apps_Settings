@@ -12,6 +12,7 @@
 			android:title="@string/grnf_website_title"
 			android:summary="@string/grnf_website_summary" />
 
+<<<<<<< HEAD
 		<Preference
 			android:key="franco_source"
 			android:title="@string/franco_source_title"
@@ -21,6 +22,13 @@
 			android:title="Mirage OW"
 			xy:nameDev="프랑코c"
 			xy:twitterHandle="franco-c" />
+=======
+		<com.android.settings.about.widgets.DeveloperPreference
+			android:title="Xylon AOSP"
+			xy:nameDev="Xylon AOSP"
+			xy:twitterHandle="XYAOSP"
+                        xy:githubLink="@string/github_xyaosp" />
+>>>>>>> xylon/jellybean
 
 	</PreferenceCategory>
 
@@ -28,43 +36,53 @@
 		android:key="team"
 		android:title="@string/team">
 
-		<com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
 			android:title="Daniel MM"
 			xy:nameDev="Daniel MM"
-			xy:twitterHandle="daxinonito"
-			xy:donateLink="@string/donate_daxxmax" />
+			xy:twitterHandle="danthefluffer"
+			xy:githubLink="@string/github_daxxmax" />
 
-		<com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
 			android:title="Arz Bhatia"
 			xy:nameDev="Arz Bhatia"
 			xy:twitterHandle="arzbhatia"
-			xy:donateLink="@string/donate_arzbhatia" />
+			xy:githubLink="@string/github_arzbhatia" />
 
-		<com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
 			android:title="Stefano Villa"
 			xy:nameDev="anarkia"
-			xy:twitterHandle="anarkia1976" />
+			xy:twitterHandle="anarkia1976"
+                        xy:githubLink="@string/github_anarkia" />
 
-		<com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
 			android:title="David Vidal"
 			xy:nameDev="David Vidal"
-			xy:twitterHandle="dorilife" />
+			xy:twitterHandle="dorilife"
+                        xy:githubLink="@string/github_dorilife" />
 			
-		<com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
 			android:title="flipz"
 			xy:nameDev="flipz"
 			xy:twitterHandle="flipzmod3"
-			xy:donateLink="@string/donate_flipz" />
+			xy:githubLink="@string/github_flipz" />
 
-                <com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
                         android:title="NetChipTi"
                         xy:nameDev="NetChipTi"
-                        xy:twitterHandle="NetchipTI" />
+                        xy:twitterHandle="NetchipTI"
+                        xy:githubLink="@string/github_netchipti" />
 
-                <com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
                         android:title="fuss132"
                         xy:nameDev="fuss132"
-                        xy:twitterHandle="fuss132Dev" />
+                        xy:twitterHandle="fuss132Dev"
+                        xy:githubLink="@string/github_fuss132" />
+
+		<com.android.settings.about.widgets.DeveloperPreference
+                        android:title="psafx"
+                        xy:nameDev="psafx"
+                        xy:twitterHandle="psafx"
+                        xy:githubLink="@string/github_psafx" />
 
 
 	</PreferenceCategory>
@@ -73,38 +91,41 @@
 		android:key="contributors"
 		android:title="@string/contributors">
 
-		<com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
 			android:title="Fruit N' Veggies"
 			xy:nameDev="Fruit N' Veggies"
 			xy:twitterHandle="ProjectFNV"
-			xy:donateLink="@string/donate_fnv" />
+			xy:githubLink="@string/github_fnv" />
 
-                <com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
                         android:title="CyanogenMod"
                         xy:nameDev="CyanogenMod"
                         xy:twitterHandle="cyanogenmod"
-                        xy:donateLink="@string/donate_cyanogenmod" />
+                        xy:githubLink="@string/github_cyanogenmod" />
 
-                <com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
             		android:title="AOKP"
 	                xy:nameDev="AOKP"
 	                xy:twitterHandle="aokp_rom"
-                        xy:donateLink="@string/donate_aokp" />
+                        xy:githubLink="@string/github_aokp" />
 
-		<com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
 			android:title="ParanoidAndroid"
 			xy:nameDev="ParanoidAndroid"
-			xy:twitterHandle="paranoid_team" />
+			xy:twitterHandle="paranoid_team"
+                        xy:githubLink="@string/github_paranoid" />
 
-                <com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
                         android:title="Carbon ROM"
                         xy:nameDev="Carbon ROM"
-                        xy:twitterHandle="carbonrom" />
+                        xy:twitterHandle="carbonrom"
+                        xy:githubLink="@string/github_carbon" />
 
-                <com.android.settings.widgets.DeveloperPreference
+		<com.android.settings.about.widgets.DeveloperPreference
                         android:title="SlimRoms"
                         xy:nameDev="SlimRoms"
-                        xy:twitterHandle="slimroms" />
+                        xy:twitterHandle="slimroms"
+                        xy:githubLink="@string/github_slim" />
 
 	</PreferenceCategory>
 

@@ -40,13 +40,13 @@
     <string name="device_info_default">Unknown</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a kanger.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a kanger.</item>
+        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling developer settings</item>
+        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer settings</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">BASH BASH UNICORNS!</string>
+    <string name="show_dev_on">You have now enabled developer settings!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already">Really? Your unicorn is with you already.</string>
+    <string name="show_dev_already">No need, you have already enabled developer settings.</string>
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
@@ -2471,6 +2471,10 @@
     <string name="lockpattern_settings_enable_summary">Must draw pattern to unlock screen</string>
     <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
     <string name="lockpattern_settings_enable_visible_pattern_title">Make pattern visible</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether the dots will be drawn when using the lockscreen pattern.-->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Security & location settings screen, setting check box title. This setting controls whether tactile feedback will be produced when the user draws the pattern.-->
     <string name="lockpattern_settings_enable_tactile_feedback_title">Vibrate on touch</string>
     <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the power button is pressed. [CHAR LIMIT=28]-->
@@ -4453,6 +4457,8 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">2012-01-01-0000</string>
 
+    <string name="dxy_settings_title">Dark Xylon</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -4478,10 +4484,25 @@
     <string name="donate_cyanogenmod">http://forum.cyanogenmod.com/donate</string>
     <string name="donate_fnv">http://goo.gl/3Vo2G</string>
     <string name="donate_flipz">http://forum.xda-developers.com/donatetome.php?u=1507622</string>
+    <string name="github_xyaosp">http://github.com/XYAOSP</string>
+    <string name="github_daxxmax">http://github.com/daxxmax</string>
+    <string name="github_arzbhatia">http://github.com/arzbhatia</string>
+    <string name="github_anarkia">http://github.com/anarkia1976</string>
+    <string name="github_dorilife">http://github.com/dorilife</string>
+    <string name="github_flipz">http://github.com/flipz</string>
+    <string name="github_netchipti">http://github.com/FrostBite-Android</string>
+    <string name="github_fuss132">http://github.com/fuss132</string>
+    <string name="github_psafx">http://github.com/psafx</string>
+    <string name="github_fnv">http://github.com/FruitNVeggies</string>
+    <string name="github_aokp">http://github.com/AOKP</string>
+    <string name="github_cyanogenmod">http://github.com/CyanogenMod</string>
+    <string name="github_paranoid">http://github.com/ParanoidAndroid</string>
+    <string name="github_carbon">http://github.com/CarbonDev</string>
+    <string name="github_slim">http://github.com/SlimRoms</string>
 
     <!-- Customisation -->
     <string name="other_cat">Other Settings</string>
-    <string name="xylon_extras">XY Tools</string>
+    <string name="xylon_extras">Mirage Tools</string>
     <string name="lockscreen_stub">Lock Screen</string>
     <string name="misc">Misc</string>
 
@@ -4769,6 +4790,25 @@
     <!-- XYStats -->
     <string name="anonymous_statistics_title">Xylon statistics</string>
     <string name="anonymous_statistics_summary">Help make Xylon better by opting into anonymous statistics reporting</string>
+
+    <!-- Automatic brightness customization -->
+    <string name="light_sensor_current_value">Current light sensor value: <xliff:g id="light_level">%d</xliff:g> lux</string>
+    <string name="auto_brightness_dialog_title">Automatic brightness levels</string>
+    <string name="auto_brightness_level_format"><xliff:g id="start_level">%1$s</xliff:g> -\n<xliff:g id="end_level">%2$s</xliff:g> lux</string>
+    <string name="auto_brightness_brightness_format"><xliff:g id="percent">%s</xliff:g>%%</string>
+    <string name="auto_brightness_adjust_button">Adjust</string>
+    <string name="auto_brightness_reset_button">Reset</string>
+    <string name="auto_brightness_lux_dialog_title">Ambient brightness range</string>
+    <string name="auto_brightness_split_dialog_title">Split brightness level</string>
+    <string name="auto_brightness_start_lux">Range start (lux)</string>
+    <string name="auto_brightness_end_lux">Range end (lux)</string>
+    <string name="auto_brightness_reset_dialog_title">Reset levels?</string>
+    <string name="auto_brightness_reset_confirmation">All brightness levels will be reset to their default settings.</string>
+    <string name="auto_brightness_split_lux_format">Split position (between <xliff:g id="min">%1$d</xliff:g> and <xliff:g id="max">%2$d</xliff:g> lux)</string>
+    <string name="auto_brightness_level_options">Light level options</string>
+    <string name="auto_brightness_menu_edit_lux">Ambient brightness range</string>
+    <string name="auto_brightness_menu_split">Split</string>
+    <string name="auto_brightness_menu_remove">Remove</string>
 
     <!-- **XYLON/FNV ACTIVITIES MODIFICATIONS ENDS** -->
 

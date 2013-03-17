@@ -2128,7 +2128,7 @@
     <string name="cpu_governors_summary">%S</string>
     <string name="cpu_min_freq_title">최소 CPU 클럭</string>
     <string name="cpu_min_freq_summary">%s</string>
-    <string name="cpu_max_freq_title">최돼 CPU 클럭</string>
+    <string name="cpu_max_freq_title">최대 CPU 클럭</string>
     <string name="cpu_max_freq_summary">%s</string>
     <string name="cpu_set_on_boot">시작 시 적용</string>
     <string name="cpu_set_on_boot_summary">프로세서 설정을 부팅 시 마다 적용 합니다</string>
@@ -2147,7 +2147,7 @@
     <string name="pref_purgeable_assets_summary">bit 메모리를 청소함으로써 램을 확보 합니다 (재부팅 필요)</string>
 
     <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">I/O 스케줄을 번경하세요</string>
+    <string name="io_scheds_summary">I/O 스케쥴을 변경하세요</string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O 스케쥴</string>

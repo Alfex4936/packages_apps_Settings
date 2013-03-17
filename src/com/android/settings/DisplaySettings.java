@@ -45,7 +45,7 @@ import android.provider.Settings.SettingNotFoundException;
 import android.util.Log;
 
 import com.android.internal.view.RotationPolicy;
-import com.android.settings.cyanogenmod.DisplayRotation;
+import com.android.settings.DisplayRotation;
 
 import java.util.ArrayList;
 

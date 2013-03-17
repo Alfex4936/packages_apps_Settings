@@ -8,27 +8,15 @@
 		android:title="@string/xylon">
 
 		<Preference
-			android:key="grnf_website"
-			android:title="@string/grnf_website_title"
-			android:summary="@string/grnf_website_summary" />
+			android:key="xylon_website"
+			android:title="@string/xylon_website_title"
+			android:summary="@string/xylon_website_summary" />
 
-<<<<<<< HEAD
-		<Preference
-			android:key="franco_source"
-			android:title="@string/franco_source_title"
-			android:summary="@string/franco_source_summary" />
-
-		<com.android.settings.widgets.DeveloperPreference
-			android:title="Mirage OW"
-			xy:nameDev="프랑코c"
-			xy:twitterHandle="franco-c" />
-=======
 		<com.android.settings.about.widgets.DeveloperPreference
-			android:title="Xylon AOSP"
-			xy:nameDev="Xylon AOSP"
-			xy:twitterHandle="XYAOSP"
-                        xy:githubLink="@string/github_xyaosp" />
->>>>>>> xylon/jellybean
+			android:title="MIRAGE"
+			xy:nameDev="MIRAGE franco"
+			xy:twitterHandle="franco-c"
+                        xy:githubLink="@string/github_mirage" />
 
 	</PreferenceCategory>
 

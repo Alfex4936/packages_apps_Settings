@@ -1,5 +1,5 @@
 
-package com.android.settings.about;
+package com.android.settings.mirage;
 
 import android.content.Intent;
 import android.net.Uri;
